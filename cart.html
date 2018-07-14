@@ -1,0 +1,182 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>MediSphere International</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src= "js/bootstrap.js"></script>
+    </head>
+
+	<body>
+<div class= "topbar">
+
+</div>
+<div class= "s_icon">
+	<div class= "icon">
+		<a href="www.facebook.com"><img src="images/fb.png"></a>
+		<a href="www.instagram.com"><img src="images/ig.png"></a>
+		<a href="www.twitter.com"><img src="images/twt.png"></a>
+		<a href="www.myspace.com"><img src="images/mysp.png"></a>
+		<a href="www.linkedin.com"><img src="images/lnk.png"></a>
+	</div>
+	<div class= "container">
+		
+		<div class="header_right">
+			<div class="cart_btn">
+				<img src="images/XXXX.png">
+				<span>Cart (0)</span>
+			</div>
+			<div class="login_register_btn">
+				<a href="login.php">Login</a>
+				<a href="signup.php">Register</a>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div class="header">
+	<div class="logo">
+		<img src="images/Logo.png">
+	</div>
+	<div class="container">
+		
+		<div class="navbar">
+		<table width="800px", height="70px">
+		<tr class="tnav">
+			<td><a href="#">Home</a></td>
+			<td><a href="#">Profile</a></td>
+			<td><a href="#">Services</a></td>
+			<td><a href="#">XXXX</a></td>
+			<td><a href="#">About Us</a></td>
+		</tr>
+		</table>
+		</div>
+	</div>
+</div>
+
+
+<div class="col-md-4 sec1">
+	<h1>Quick Menu</h1>
+	<div class="hamburger">
+	<table >
+		<tr>
+			<td><a href="#" onclick="openNav()">Medicine Cabinet  </a></td><td>  <img src="images/1254.png" onclick="openNav()"/></td>
+		</tr>
+		<tr>
+			<td><a href="#" onclick="openNav()">Consultations  </a></td><td>  <img src="images/12345.png" onclick="openNav()"/></td>
+		</tr>
+		<tr>
+			<td><a href="#" onclick="openNav()">Appointments  </a></td><td>  <img src="images/1254.png" onclick="openNav()"/></td>
+		</tr>
+		
+	</table>
+	</div>
+	<div id="mysidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times;</a>
+		<h1>Medicine Cabinet</h1>
+		<a href="#">Tablets & Capsules</a> 
+		<a href="#">Syrups & Suspensions</a> 
+		<a href="#">Surgicals & Dressings</a> 
+		<a href="#">Injections</a> 
+		<a href="#">Syringes & Needles</a> 
+	</div>
+</div>
+
+<div class="col-md-8 sec2">
+  <div class="panel panel-default">
+<div class="panel-heading panel-heading-green">
+  <h3 class="panel-title">MediSphere International</h3>
+  </div>
+  <div class="panel-body">
+
+	<table class="table table-striped">
+		<tr>
+			<th>Product</th>
+			<th>Quantity</th>
+			<th>Price</th>
+		</tr>
+		<tr>
+			<td>Medicine</td>
+			<td>1</td>
+			<td>Kshs 0.00</td>
+		</tr>
+		<tr>
+			<td>Medicine</td>
+			<td>1</td>
+			<td>Kshs 0.00</td>
+		</tr>
+		<tr>
+			<td>Medicine</td>
+			<td>1</td>
+			<td>Kshs 0.00</td>
+		</tr>
+		<tr>
+			<td>Medicine</td>
+			<td>1</td>
+			<td>Kshs 0.00</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="cart-shipping">Shipping: Kshs 199</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="cart-total">Total: Kshs 199</td>
+		</tr>
+		</table>
+		<h3>Shipping Information</h3>
+		<div class="form-group">
+			<label>Address 1</label>
+			<input type="text" class="form-control" name="address1">
+		</div>
+		<div class="form-group">
+			<label>Address 2</label>
+			<input type="text" class="form-control" name="address2">
+		</div>
+		<div class="form-group">
+			<label>City</label>
+			<input type="text" class="form-control" name="city">
+		</div>
+		<div class="form-group">
+			<label>State</label>
+			<input type="text" class="form-control" name="state">
+		</div>
+		<div class="form-group">
+			<label>Zip code</label>
+			<input type="text" class="form-control" name="zipcode">
+		</div>
+		<p><button class="btn btn-primary" type="submit">Checkout</button></p>
+	</div>
+</div>
+
+</div>
+
+
+</body>
+<script>
+
+function openNav(){
+
+document.getElementById("mysidenav").style.width= "250px";
+
+document.getElementById("main").style.marginLeft= "250px";
+
+document.body.style.backgroundColor = "rgba( 0, 0, 0, 0, 4)";
+}
+
+function closeNav(){
+
+document.getElementById("mysidenav").style.width= "0px";
+
+document.getElementById("main").style.marginLeft= "0px";
+
+
+document.body.style.backgroundColor = "white";
+}
+</script>
+</html>

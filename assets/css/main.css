@@ -1,0 +1,475 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : muchraezzy
+*/
+
+
+*{
+margin:0;
+padding:0;
+}
+
+body{
+font-family: century gothic;
+}
+
+main{ 
+width:100%;
+height:auto;
+/*background-image:url(../images/XXXX.png);
+background-repeat:repeat;
+background-color:#666666;*/
+min-height:500px;
+margin:0 auto;
+
+}
+
+.container{
+width:1000px;
+height:auto;
+margin:auto;
+}
+
+.s_icon{
+width:100%;
+height:40px;
+background-color:#ffffff;
+float:left;
+}
+
+.icon{
+width:200px;
+height:33px;
+padding-top:5px;
+float:left;
+}
+
+.icon img{
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+padding-right:3px;
+}
+
+.login_register_btn{
+width:150px;
+height:33px;
+float:right;
+}
+
+.header_right{
+
+
+width:300px;
+height:auto;
+float:right;
+
+}
+
+.login_register_btn a{
+display:block;
+color:black;
+text-decoration:none;
+float:left;
+line-height:33px;
+width:50px;
+}
+
+
+.cart_btn{
+width:150px;
+height:auto;
+float:right;
+background-color:#fcc508;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+}
+
+.cart_btn img{
+padding:6px;
+float:left;
+}
+
+
+.cart_btn span{
+line-height:50px;
+height:50px;
+color:#cc3333;
+font-size:14px;
+font-weight:bold;
+}
+
+.header{
+width:100%;
+height:120px;
+float:left;
+padding-top:10px;
+padding-bottom:10px;
+background-color:#FF0961;
+box-shadow:10px 15px 50px black;
+}
+
+.logo{
+width:200px;
+height:auto;
+float:left;
+}
+
+.logo2{
+width:200px;
+height:auto;
+float:left;
+margin-left:500px;
+}
+
+.navbar{
+width:700px;
+height:108px;
+
+padding-top:50px;
+margin:auto;
+margin-left:400px;
+
+
+}
+
+.tnav td{
+width:160px;
+text-align:center;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+}
+
+.tnav td:hover{
+background-color:#666666;
+box-shadow:10px 15px 50px #FF0961;
+transition:0.5s;
+}
+
+.tnav td:hover a{
+color:#f1f1f1;
+font-weight:bold;
+font-size:25px;
+transition:0.5s;
+}
+
+.navbar a{
+height:50px;
+display:inline-block;
+color:#666666;
+/*padding:0 20px 0 20px;*/
+text-decoration:none;
+font-weight:bold;
+font-size:20px;
+}
+
+
+.sec2{
+	width:100%;
+	height:1000px;
+	background-color:#fff;
+	float:right;
+	margin-top:75px;
+	border-color:#dedede;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+.sec1{
+	width:100%;
+	height:1000px;
+	background-color:#ffffff;
+	float:left;
+	margin-top:75px;
+	margin-left:0px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	position:absolute;
+}
+
+.hamburger {
+	padding:10px 10px;
+	float:left;
+	top:0px;
+}
+
+.hamburger :hover{
+	font-size:22px;
+	color:#111;
+	transition:0.5s;
+}
+
+.hamburger a{
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;
+	color:#790000;
+	padding:10px 10px;
+}
+
+.Slider{
+position:absolute;
+margin-top:230px;
+background-color:#ffffff;
+width:800px;
+height:300px;
+margin-left:345px;
+opacity:0,0,0,0,-1;
+
+}
+
+.btnnext img{
+float:right;
+margin-top:125px;
+margin-right:60px;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+border-top-left-radius:20px;
+border-top-right-radius:20px;	
+}
+
+.btnprevious img{
+float:left;	
+margin-top:125px;	
+margin-left:60px;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+}
+
+.Slider .Slides{
+width:500px;
+height:300px;
+display:flex;
+margin-left:150px;
+margin-right:150px;
+overflow:hidden;
+}
+
+.Slide1{
+width:600px;
+height:300px
+}
+
+.Slide1 .img1{
+width:600px;
+height:300px;
+display:inline-block;
+margin-top:4px;
+}
+
+.Slide1 .img2{
+width:600px;
+height:300px;
+}
+
+.Slide1 .img3{
+width:600px;
+height:300px;
+}
+
+.constant{
+position:absolute;
+margin-left:34px;
+width:33px;
+height:38px;
+}
+
+.constant h1{
+color:#19e5e5;
+margin-top:4px;
+}
+
+.constant p{
+font-family:XXXXX;
+margin-top:4px;
+margin-bottom:4px;
+}
+
+.constant btnshop{
+padding:4px;
+color:#ffffff;
+background-color:#313030;
+border-radius:10px;
+}
+
+
+
+
+.sidenav{
+height:450px;
+width:0;
+position:relative;
+z-index:1;
+top:0;
+left:0;
+background-color:#111;
+overflow-x:hidden;
+padding-top:60px;
+transition:0.5s;
+
+}
+
+.sidenav a{
+padding:8px 8px 8px 32px;
+text-decoration:none;
+font-size:18px;
+color:#818181;
+display:block;
+transition:0.3s;
+}
+
+.sidenav a:hover{
+color:#FF0961;
+font-size:20px;
+}
+
+.sidenav .closebtn{
+position:absolute;
+top:0;
+right:25px;
+font-size:36px;
+margin-left:50px;
+}
+
+
+#main{
+transition:margin-left .5s;
+padding:20px;
+}
+
+.loginform{
+	width:600px;
+	height:600px;
+	margin-left:500px;	
+	
+}
+
+.login{
+	margin-top:160px;
+	padding:15px;
+	
+}
+
+.tbox{
+	border-style:line;
+}
+
+.panel-list a{
+	display:block;
+	color:#fff;
+}
+
+.panel-list .panel-heading h3{
+	padding:4px;
+	font-size:18px;
+}
+
+.panel-heading-green{
+	background:#3b7e14 !important;
+	color:#fff !important;
+	text-align:center;
+}
+
+.panel-heading-pink{
+	background:#FF0961 !important;
+	color:#666666 !important;
+}
+
+.meds{
+	display:relative;
+
+}
+
+.meds-name{
+	text-align:center;
+	padding:5px;
+	background:#333;
+	color:#fff;
+
+}
+
+ .meds img{
+	 width:80%;
+	 padding-left:60px;
+	 padding-top:20px;
+ }
+
+.meds-price{
+	position:absolute;
+	bottom:20px;
+	right:245px;
+	background:#dedede;
+	color:#fff;
+	padding:5px;
+	font-size:18px;
+}
+
+.meds-add{
+	text-align:center;
+	margin:0px auto 20px -15px;
+	padding-left:135px;
+	width:100%;
+	display:block;
+	
+}
+.details-price{
+	font-size:20px;
+	margin-bottom:25px;
+}
+
+.details img{
+	width:100%;
+}
+
+.footer{
+	background:#333;
+	color:#fff;
+	text-align:center;
+	padding-top:0px;
+	height:70px;
+}
+
+.footer-nav{
+	background:#dedede;
+	color:#333;
+}
+
+.Pagination{
+	margin-left:330px;
+	}
+
+.Pagination a{
+	display:inline-block;
+
+	color:black;
+	padding:0px 16px;
+	text-decoration:none;
+	transition:background-color .3s;
+}
+
+.Pagination a.active{
+	background-color:dodgerblue;
+	color:white;
+}
+
+.Pagination a.hover:not(.active){
+	background-color:#ddd;
+	}
+	
+.qty{
+	width:40px;
+	color:666 !important;
+	text-align:center;
+	margin-right:270px;
+}
+
+.cart-block{
+	width:95%;
+}
